@@ -33,6 +33,6 @@ numpy                    1.18.5
 # increase socket receive buffer size
 sudo sysctl --write net.core.rmem_max=10485760
 sysctl --all --pattern "net.core.[rw]mem_max"
-# 存在文件 build/pyngp.cpython-310-x86_64-linux-gnu.so，版本与python版本一致
-python3.10 scripts/nerfcapture2nerf.py --stream
+# 存在文件 build/pyngp.cpython-39-x86_64-linux-gnu.so，版本与python版本一致
+python3.9 scripts/nerfcapture2nerf.py --stream
 ```
