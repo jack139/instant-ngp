@@ -18,6 +18,9 @@ from cyclonedds.topic import Topic
 from cyclonedds.util import duration
 
 from common import *
+
+pyngp_path = './build'
+sys.path.append(pyngp_path)
 import pyngp as ngp  # noqa
 
 def parse_args():
